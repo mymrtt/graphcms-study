@@ -1,8 +1,12 @@
+// Libs
 import React, { useState, useEffect } from 'react';
 import { request } from 'graphql-request';
-import './App.css';
 
+// Images
 import lampImg from '../src/assets/lamp.jpeg';
+
+// Styles
+import './App.css';
 
 function App() {
   const [data, setData] = useState(null);
@@ -38,7 +42,7 @@ function App() {
         <div className="container_item">
           <h2>{item.fragmento.singleText[0]}</h2>
           {item.fragmento.singleText[0] === 'Suspendisse sit amet erat ex' 
-            ? <img src={lampImg} alt="lâmpada" className="lampImg" />
+            ? <img src={lampImg} alt="Lâmpada" className="lampImg" />
             : <p>{item.fragmento.singleText[1]}</p>
           }
         </div>
