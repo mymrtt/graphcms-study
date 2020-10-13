@@ -1,0 +1,24 @@
+.App {
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container_item {
+  margin-right: 1rem;
+  padding: 1rem;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #3b4785;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.lampImg {
+  height: 15rem;
+}
