@@ -9,7 +9,7 @@ import lampImg from '../src/assets/lamp.jpeg';
 import './App.css';
 
 function App() {
-  const [data, setData] = useState(null);
+  const [data, setData] = useState(undefined);
 
   useEffect(() => {
     const fetchData = async () => {
